@@ -1,0 +1,255 @@
+
+p{
+
+  margin-left:5%;
+  margin-right:5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.byline{
+  font-size:14px;
+  margin-top:0px;
+}
+
+.dek{
+  font-size:18px;
+}
+.border{
+border-color: #ff6666;
+border-style:solid;
+padding:5px;
+}
+
+  .my-legend .legend-title {
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 90%;
+    margin-left:5%;
+    align-content: center;
+    }
+  .my-legend .legend-scale ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    margin-left:5%;
+    align-content: center;
+    }
+  .my-legend .legend-scale ul li {
+    display: block;
+    float: left;
+    width: 45px;
+    margin-bottom: 6px;
+    text-align: center;
+    font-size: 80%;
+    list-style: none;
+    align-content: center;
+    }
+  .my-legend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 15px;
+    width: 50px;
+    }
+  .my-legend .legend-source {
+    font-size: 70%;
+    color: #999;
+    clear: both;
+    }
+  .my-legend a {
+    color: #777;
+    }
+
+
+#us-map{
+  display: block;
+  position: absolute;
+  top: 10;
+  left: 20;
+  width: 90%;
+  height: 90%;
+  align-content: center;
+
+}
+
+path:hover, circle:hover {
+  stroke: #002868 !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: #002868 !important;
+  cursor: pointer;
+}
+#path67 {
+  fill: none !important;
+  stroke: #A9A9A9 !important;
+  cursor: default;
+}
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
+}
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/* Start your base/mobile styles here */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px;
+
+}
+h1{
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align:left;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom:0px;
+}
+
+h2{
+ margin-right: 5%;
+  margin-left: 5%;
+  text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-right: 5%;
+    margin-left: 5%;
+
+}
+
+.caption{
+  text-align: justify;
+  font-size: 10px;
+  font-family:Arial;
+  font-color:#4d4d33;
+  padding:none;
+  line-height: none;
+}
+
+
+.item {
+    display: block;
+    width:50%;
+}
+
+.item.less{
+  display: block;
+    width:50%;
+    fill:#ffcccc;
+
+}
+
+.item.more{
+    display: block;
+    width:50%;
+    fill:#ff6666;
+}
+
+.item.highlight {
+    display: block;
+    width:50%;
+    fill:#ff3300;
+}
+
+
+img{
+    margin-right:5%;
+    margin-left: 5%;
+    align-content:left;
+}
+
+select {
+    display: block;
+    width: 100%;
+}
+
+
+/* Tablet/Desktop overrides */
+
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+    .item {
+        width: 33%;
+        min-height: 310px;
+    }
+    select {
+        width: 33%;
+    }
+    p, h1, h2, .container, img{
+    margin-right: 25%;
+    margin-left: 25%;
+}
+}
+
+@media(min-width: 729px) {
+p, h1, h2, .container, .table{
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.container{
+
+   margin-right: 15%;
+    margin-left: 15%; 
+}
+
+.map{
+
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.my-legend .legend-title {
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 90%;
+    margin-left:15%;
+    }
+  .my-legend .legend-scale ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    margin-left:15%;
+    }
+
+img{
+    width:70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+}
+.my-legend .legend-title {
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 90%;
+    margin-left:15%;
+    }
+  .my-legend .legend-scale ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    margin-left:15%;
+    }
