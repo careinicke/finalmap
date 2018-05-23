@@ -261,14 +261,16 @@ img{
     margin-bottom: 8px;
     font-weight: bold;
     font-size: 80%;
-    margin-left:15%;
+    margin-left:5%;
     }
   .my-legend .legend-scale ul {
     margin-right: 20px;
-    padding-right:700px;
+    padding-right:100px;
     float: left;
     list-style: none;
     }
+
+
     #us-map{
   display: block;
   position: static;
